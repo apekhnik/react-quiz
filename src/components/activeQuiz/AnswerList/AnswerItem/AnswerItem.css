@@ -7,3 +7,9 @@
 .AnswerItem:hover{
     background: rgba(255, 255, 255, .2);
 }
+.AnswerItem.succes{
+    background: green;
+}
+.AnswerItem.wrong{
+    background: red;
+}
