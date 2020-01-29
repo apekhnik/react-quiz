@@ -4,7 +4,7 @@ import './AnswerItem.css'
 const AnswerItem = props => {
             const cls = ['AnswerItem']
             // eslint-disable-next-line
-            if(props.state=="succes"){
+            if(props.state=="success"){
                 cls.push('succes')
             // eslint-disable-next-line
             }else if(props.state=="error"){

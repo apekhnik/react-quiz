@@ -1,0 +1,31 @@
+.FinishedQuiz {
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 10px;
+
+}
+.FinishedQuiz ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.FinishedQuiz ul li i {
+    margin-left: 10px;
+}
+.succes{
+    color: rgba(161, 240, 68, .7);
+}
+.wrong{
+    color: rgba(240, 87, 108, .7);
+}
+.fa-times {
+    
+    color: rgba(240, 87, 108, .7);
+}
+.fa-check {
+    color: rgba(161, 240, 68, .7);
+}
