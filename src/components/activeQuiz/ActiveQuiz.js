@@ -3,7 +3,7 @@ import './ActiveQuiz.css'
 import AnswerList from './AnswerList/AnswerList'
 
 
-const ActiveQuiz = props =>(
+const ActiveQuiz = (props) =>(
     const {activeQuestion,quizLength,state,onAnswerClick,answers,question} = props
     <div className="activeQuiz">
         <p className="question">
