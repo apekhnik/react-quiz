@@ -4,21 +4,21 @@ import AnswerList from './AnswerList/AnswerList'
 
 
 const ActiveQuiz = props =>(
-    
+    const {activeQuestion,quizLength,state,onAnswerClick,answers,question} = props
     <div className="activeQuiz">
         <p className="question">
             <span>
-                <strong>{props.activeQuestion}.</strong>&nbsp;
-                {props.question}
+                <strong>{activeQuestion}.</strong>&nbsp;
+                {question}
                 
             </span>
 
-            <small> {props.activeQuestion} of {props.quizLength}</small>
+            <small> {activeQuestion} of {quizLength}</small>
         </p>
         <AnswerList
-            state={props.state}
-            onAnswerClick={props.onAnswerClick}
-            answers={props.answers}
+            state={state}
+            onAnswerClick={onAnswerClick}
+            answers={answers}
             
         />
     </div>
